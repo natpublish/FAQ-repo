@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Repository — pusat informasi resmi tentang privasi, pengguna, dan layanan.">
+  <title>Repository | Pusat Informasi Resmi</title>
+  <link rel="stylesheet" href="./repository.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="Repository beranda"><span class="brand-mark">R</span><span><strong>REPOSITORY</strong><small>Pusat Informasi Resmi</small></span></a>
+    <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false">Menu</button>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="#tentang">Tentang</a><a href="#privasi">Pengaturan Privasi</a><a href="#faq">FAQ Pengguna</a><a class="nav-button" href="#bantuan">Pusat Bantuan</a>
+    </nav>
+  </header>
+
+  <main id="beranda">
+    <section class="hero container"><div class="hero-copy"><p class="eyebrow">INFORMASI TERPUSAT</p><h1>Informasi yang jelas untuk keputusan yang lebih baik.</h1><p class="lead">Repository menyediakan informasi resmi tentang layanan, pengelolaan privasi, dan dukungan bagi seluruh pengguna dalam satu tempat.</p><div class="actions"><a class="button primary" href="#tentang">Jelajahi informasi</a><a class="button secondary" href="#faq">Pertanyaan umum</a></div></div><div class="quick-links"><a href="#tentang"><b>01</b><span><strong>Tentang Repository</strong><small>Tujuan, prinsip, dan cara kerja platform.</small></span></a><a href="#privasi"><b>02</b><span><strong>Privasi &amp; Keamanan</strong><small>Kendali atas data dan preferensi Anda.</small></span></a><a href="#faq"><b>03</b><span><strong>Dukungan Pengguna</strong><small>Jawaban untuk pertanyaan yang sering diajukan.</small></span></a></div></section>
+
+    <section id="tentang" class="section container"><div><p class="eyebrow">TENTANG KAMI</p><h2>Membangun kepercayaan melalui keterbukaan.</h2></div><div class="two-column"><p>Repository dirancang sebagai sumber rujukan resmi bagi pengguna. Kami menyusun informasi secara terstruktur agar mudah ditemukan, dipahami, dan digunakan dalam keseharian.</p><div class="note"><strong>Berorientasi pada pengguna</strong><p>Informasi yang akurat, bahasa yang jelas, dan proses yang dapat dipertanggungjawabkan.</p></div></div></section>
+
+    <section id="privasi" class="privacy"><div class="container"><p class="eyebrow">PENGATURAN PRIVASI</p><h2>Anda memegang kendali atas data Anda.</h2><p class="section-intro">Pilih bagaimana kami menggunakan data untuk meningkatkan pengalaman Anda. Pengaturan dapat diubah kapan saja.</p><div class="settings-card"><label class="setting"><span><strong>Analitik penggunaan</strong><small>Bantu kami memahami penggunaan layanan melalui data yang dikumpulkan secara agregat.</small></span><input class="switch" type="checkbox" data-setting="analytics" checked></label><label class="setting"><span><strong>Preferensi pengalaman</strong><small>Simpan pilihan bahasa, tampilan, dan pengaturan agar pengalaman lebih relevan.</small></span><input class="switch" type="checkbox" data-setting="preferences" checked></label><label class="setting"><span><strong>Mode tampilan</strong><small>Pilih tampilan terang, gelap, atau mengikuti pengaturan perangkat.</small></span><select id="theme-select" aria-label="Pilih mode tampilan"><option value="light">Terang</option><option value="dark">Gelap</option><option value="system">Sistem</option></select></label><label class="setting"><span><strong>Ukuran font</strong><small>Sesuaikan ukuran kalimat agar lebih nyaman dibaca.</small></span><select id="font-select" aria-label="Pilih ukuran font"><option value="normal">Normal</option><option value="large">Besar</option><option value="xlarge">Sangat besar</option></select></label></div><button id="save-settings" class="button primary" type="button">Simpan pengaturan</button><span id="save-status" class="save-status" role="status"></span></div></section>
+
+    <section id="faq" class="section container"><div><p class="eyebrow">FAQ PENGGUNA</p><h2>Jawaban untuk pertanyaan Anda.</h2><p class="section-intro">Belum menemukan yang Anda cari? Hubungi tim dukungan kami.</p></div><div class="faq-list"><details><summary>Apa itu Repository?</summary><p>Repository adalah pusat informasi resmi yang membantu pengguna memahami layanan, kebijakan, dan cara menggunakan platform secara bertanggung jawab.</p></details><details><summary>Bagaimana cara memperbarui data pengguna?</summary><p>Masuk ke akun Anda, buka Pengaturan Akun, lalu pilih Data Pribadi. Perubahan akan diterapkan setelah Anda menyimpannya.</p></details><details><summary>Apakah data saya dibagikan kepada pihak lain?</summary><p>Kami tidak menjual data pribadi. Data hanya dibagikan ketika diperlukan untuk menjalankan layanan, memenuhi kewajiban hukum, atau dengan persetujuan Anda.</p></details><details><summary>Bagaimana cara menghubungi tim dukungan?</summary><p>Silakan kirim pertanyaan melalui Pusat Bantuan. Tim kami akan meninjau permintaan dan merespons sesuai urutan prioritas.</p></details></div></section>
+  </main>
+  <section id="bantuan" class="support"><div class="container support-inner"><div><p class="eyebrow">PUSAT BANTUAN</p><h2>Masih membutuhkan bantuan?</h2><p>Tim kami siap membantu Anda menemukan informasi yang tepat.</p></div><a class="button light" href="mailto:bantuan@repository.id">Hubungi dukungan</a></div></section>
+  <footer><div class="container footer-inner"><span>© 2026 Repository. Informasi resmi dan terpercaya.</span><a href="#privasi">Kebijakan Privasi</a></div></footer>
+  <script src="./repository.js"></script>
+</body>
+</html>
